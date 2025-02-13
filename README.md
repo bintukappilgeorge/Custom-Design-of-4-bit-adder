@@ -58,17 +58,31 @@ The goal of this project was to design a **4-bit adder** with optimized **power 
 
 ### **3️⃣ Layout Design**  
 - **Single-bit adder layout** and **full 4-bit adder layout** were designed.  
-- Layout verification was conducted using **DRC and LVS checks**.  
+- Layout verification was conducted using **DRC and LVS checks**.
+![Screenshot 2025-02-13 100526](https://github.com/user-attachments/assets/92578bf9-a125-4bfa-9bb2-f027838aa933)
+
+
+
 
 ---
 
 ## 🔬 **Simulation Results**  
 
 ### ✅ **Worst-Case Delay**  
-- Measured **worst-case delay** between **A0 and S3**: **52.3ps**  
+- Measured **worst-case delay** between **A0 and S3**: **52.3ps**
+
+![Screenshot 2025-02-13 100617](https://github.com/user-attachments/assets/648d0d39-5687-4a55-9d40-3b40e580fa68)
+
 
 ### ⚡ **Power Consumption**  
-- Average power consumption: **68.6 µW**  
+- Average power consumption: **68.6 µW**
+
+![Screenshot 2025-02-13 100631](https://github.com/user-attachments/assets/a3833848-800d-45eb-a0eb-59e74ea0b781)
+
+### ⚡ **Power Consumption**
+- Total Pr Boundary Area = **43.8𝜇𝑚2**
+
+![Screenshot 2025-02-13 100758](https://github.com/user-attachments/assets/eb2b28ac-c920-4a31-b06c-6ec5ded318fb)
 
 ---
 
@@ -77,9 +91,12 @@ The goal of this project was to design a **4-bit adder** with optimized **power 
 ### 📏 **Layout & DRC Check**  
 - **1-bit adder and 4-bit adder layouts** were designed.  
 - **DRC (Design Rule Check) passed** for both layouts.  
-
+![Screenshot 2025-02-13 100703](https://github.com/user-attachments/assets/bc56ade1-864f-458f-b786-178f325ad410)
+![Screenshot 2025-02-13 100719](https://github.com/user-attachments/assets/181662ee-48bc-4be2-9174-27e6c61fd248)
 ### 🔍 **LVS Check**  
 - **LVS (Layout vs. Schematic) passed**, confirming the correctness of the layout.  
+![Screenshot 2025-02-13 100731](https://github.com/user-attachments/assets/838fc7fd-f586-4039-96ce-1e09d6b2bd29)
+![Screenshot 2025-02-13 100744](https://github.com/user-attachments/assets/54ad4a8c-1873-40e6-8b01-cfea3cab1388)
 
 ---
 
